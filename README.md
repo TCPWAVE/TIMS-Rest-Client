@@ -6,6 +6,7 @@
   
   	In order for the update to take place via the API, the appropriate user should also have permissions to perform the desired action.
   	This API call allows the user with the appropriate privileges to add a resource to the TCPWave IPAM.
-  	Execution of this REST call is audited by the TCPWave IPAM. Customers are advised to execute this REST API call in a non-production 	environment before attempting to execute it in a production environment.
+  	Execution of this REST call is audited by the TCPWave IPAM. Customers are advised to execute this REST API call in a
+    non-production environment before attempting to execute it in a production environment.
 
 
