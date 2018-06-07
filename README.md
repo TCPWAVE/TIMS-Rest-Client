@@ -208,9 +208,9 @@ node.js can be invoked using the command “node client.js addnetwork.cmd”. cd
     # cat addNetwork.cmd
     {
   	"method":"POST",
- 	 "url":"/network/add",
- 	 "data":
-    {
+ 	  "url":"/network/add",
+ 	  "data":
+     {
         "address":"10.1.10.0",
         "mask_length":"24",
        	"name":"test",
@@ -230,12 +230,12 @@ node.js can be invoked using the command “node client.js addnetwork.cmd”. cd
        	"addr3":"10",
         "addr4":"0",
         "organization_name":"EARTH"
-    }
+      }
     }
 
     # cat getorganization.cmd
     {
-    "method":"GET",
+     "method":"GET",
      "url":"organization/get?name=QAOrg"
     }
 Similar structure is followed for all the cmd files. "method" can take HTTP methods corresponding to CRUD operations, "url" is the path of REST API, and "data" contains the request payload.
