@@ -211,31 +211,31 @@ node.js can be invoked using the command “node client.js addnetwork.cmd”. cd
  	  "url":"/network/add",
  	  "data":
      {
-        "address":"10.1.10.0",
-        "mask_length":"24",
-       	"name":"test",
-       	"description":"",
-       	"dmzVisible":"no",
-        "dnssec_enable":"no",
-        "nsec_option":"NSEC3",
-        "percentageFull":100,
-      	"email_check":1,
-        "snmp_check":0,
-       	"log_check":0,
-       	"rrs":[],
-       	"zoneTemplateId":"",
-        "zoneTemplateName":null,
-        "addr1":"10",
-       	"addr2":"1",
-       	"addr3":"10",
-        "addr4":"0",
-        "organization_name":"EARTH"
+          "address":"10.1.10.0",
+          "mask_length":"24",
+          "name":"test",
+          "description":"",
+          "dmzVisible":"no",
+          "dnssec_enable":"no",
+          "nsec_option":"NSEC3",
+          "percentageFull":100,
+          "email_check":1,
+          "snmp_check":0,
+          "log_check":0,
+          "rrs":[],
+          "zoneTemplateId":"",
+          "zoneTemplateName":null,
+          "addr1":"10",
+          "addr2":"1",
+          "addr3":"10",
+          "addr4":"0",
+          "organization_name":"EARTH"
       }
-    }
+      }
 
-    # cat getorganization.cmd
-    {
-     "method":"GET",
-     "url":"organization/get?name=QAOrg"
-    }
+     # cat getorganization.cmd
+      {
+         "method":"GET",
+         "url":"organization/get?name=QAOrg"
+      }
 Similar structure is followed for all the cmd files. "method" can take HTTP methods corresponding to CRUD operations, "url" is the path of REST API, and "data" contains the request payload.
