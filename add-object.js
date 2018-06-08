@@ -1,0 +1,24 @@
+{
+  "method":"POST",
+  "url":"object/add",
+  "data":
+  {
+    "addr1":10,
+    "addr2":1,
+    "addr3":10,
+    "addr4":87,
+    "alloc_type":1,
+    "update_ns_a":true,
+    "update_ns_ptr":true,
+    "dyn_update_rrs_a":true,
+    "dyn_update_rrs_ptr":true,
+    "dyn_update_rrs_cname":true,
+    "dyn_update_rrs_mx":true,
+    "class_code":"TCPWave Remote", 
+    "domain_name":"tcpwave.com",
+    "name":"QA-Remote-87",
+    "organization_name":"EARTH",
+    "ttl":1200,
+    "subnet_address":"10.1.10.0"
+  }
+}
