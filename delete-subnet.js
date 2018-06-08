@@ -1,0 +1,10 @@
+{
+  "method":"POST",
+  "url":"subnet/delete",
+  "data":
+  {
+    "addressList":["10.1.10.0/24"],
+    "isDeleterrsChecked":1,
+    "organizationName":"EARTH"
+  }
+}
