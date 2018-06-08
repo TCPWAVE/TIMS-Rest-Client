@@ -1,0 +1,26 @@
+{
+"method":"POST",
+"url":"/zone/update",
+"data":
+{
+"name":"tcpwave.com",
+"template_name":"TCPWave-template",
+"description":"",
+"dnssec_enable":"no",
+"nsec_option":"NSEC3",
+"restrictedZone":"no",
+"monitoringService":"yes",
+"dmzVisible":"no",
+"activeDirectoryEnable":"no",
+"dcObjectIds":[],
+"dcAclObjects":[],
+"secureActiveDirectoryEnable":"no",
+"serial_format":"DATE",
+"addedRRs":[{"owner":"www.tcpwave.com.","rrclass":"IN","rrtype":"A","ttl":"1200","data":"1.2.3.4","description":"","is_external_rr":0,"status":1},
+{"owner":"www1.tcpwave.com.","rrclass":"IN","rrtype":"CNAME","ttl":"1200","data":"www.tcpwave.com.","description":"","is_external_rr":0,"status":1},
+{"owner":"www.tcpwave.com.","rrclass":"IN","rrtype":"A","ttl":"1200","data":"2.3.4.5","description":"","is_external_rr":0,"status":1},
+{"owner":"mx.tcpwave.com.","rrclass":"IN","rrtype":"MX","ttl":"1200","data":"5 www.tcpwave.com.","description":"","is_external_rr":0,"status":1},
+{"owner":"www4.tcpwave.com.","rrclass":"IN","rrtype":"A","ttl":"1200","data":"5.6.8.9","description":"","is_external_rr":0,"status":1}],"deletedRRs":[],"old_name":"sample4.com",
+"updateSubZone":false,
+"organization_name":"EARTH"}
+}
