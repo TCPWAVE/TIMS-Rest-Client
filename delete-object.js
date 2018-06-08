@@ -1,0 +1,10 @@
+{
+  "method":"POST",
+  "url":"object/delete-multiple",
+  "data":
+  {
+    "addressArray":["10.1.10.87"],
+    "isDeleterrsChecked":0,
+    "organization_name":"EARTH"
+  }
+}
