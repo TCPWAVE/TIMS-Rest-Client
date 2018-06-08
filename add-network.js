@@ -5,7 +5,7 @@
  	  "data":
      {
           "address":"10.1.10.0",
-          "mask_length":"24",
+          "mask_length":"16",
           "name":"test",
           "description":"",
           "dmzVisible":"no",
