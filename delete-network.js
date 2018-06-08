@@ -1,0 +1,9 @@
+{
+"method":"POST",
+"url":"/network/delete",
+"data":
+{
+"address":"10.1.10.0",
+"organization_name":"EARTH"
+}
+}
